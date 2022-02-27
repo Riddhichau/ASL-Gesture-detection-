@@ -28,16 +28,16 @@ mylabel2= Label(root, text='Here you can detect and learn some ASL gestures!', b
 
 
 def image1():  #opens a picture of the american sign language to practice and refer to 
-   
+
+      child=Toplevel(root)
+      child.geometry('350x300')
       global img
-      canvas = Canvas(root, width = 290, height = 250, bg = 'midnight blue', highlightbackground = 'midnight blue') 
+      canvas = Canvas(child, width = 500, height = 500, bg = 'midnight blue', highlightbackground = 'midnight blue') 
       img = ImageTk.PhotoImage(Image.open("ASL1.png"))  
       canvas.create_image(20, 20, anchor=NW, image=img)
-      canvas.grid(row = 500, column = 10)
-
-      button1 = Button(root, text="Close", font=('Gadugi', 5, 'bold'), fg='white', bg='turquoise', command=canvas.destroy)
-      button1.grid(row=700, column=10)
-   
+      canvas.grid(row = 0, column = 0)
+       
+      
 
 
     
@@ -137,17 +137,22 @@ def user_manual ():
    def callback(event):
     webbrowser.open_new(event.widget.cget("text")) #displays a link to the user manual 
 
-      
-   lbl = Label(root, text=r"https://tinyurl.com/2a6hspjy", fg="white", cursor="hand2", bg='turquoise')
-   lbl.grid(row = 310, column = 10)
+   child2 = Toplevel(root)
+   child2.geometry('250x100')
+   child2.configure(bg='Navy')
+   lb0 = Label(child2, text=r"Please click this link to see the manual!", fg="white", bg='turquoise').grid(row=100, column=1)
+   lbl = Label(child2, text=r"https://tinyurl.com/2a6hspjy", fg="white", bg='turquoise')
+   lbl.grid(row = 130, column = 1)
    lbl.bind("<Button-1>", callback)
    root.mainloop()
    
 def About_help (): #gives basic information about this application 
-   text1 = Label(root, text='This is an ASL detector, and can be used to practice and train yourself, or to communicate with someone. \n It uses a camera and hand movement to make these predictions. Enjoy! \n\n If you have any queries or complaints, please contact me here: riddhichauhan2005@gmail.com \nI will try to get back to you as soon as possible.', bg='Navy', fg='white', font=('Century Gothic', 10))
+   child3 = Toplevel(root)
+   child3.geometry('620x150')
+   child3.configure(bg='Navy')
+   text1 = Label(child3, text='This is an ASL detector, and can be used to practice and train yourself, or to communicate with someone. \n It uses a camera and hand movement to make these predictions. \n\n Enjoy! \n\n If you have any queries or complaints, please contact me here: riddhichauhan2005@gmail.com \nI will try to get back to you as soon as possible.', bg='Navy', fg='white', font=('Century Gothic', 10))
    text1.grid(row=570, column = 10)
-   button = Button(root, text="Close", font=('Gadugi', 5, 'bold'), fg='white', bg='turquoise', command=text1.destroy)
-   button.grid(row=980, column=10)
+   
    
 mylabel4 = Label(root, text = '                                ', bg='midnight blue').grid(row=50,column=10)
 
