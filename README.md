@@ -1,3 +1,5 @@
 # ASL-Gesture-detection
 Everyone deserves to be understood, but sign language's importance is often overlooked in the society. This application aims to help rectify this by providing an ASL gesture detection system. The application uses mediapipe, tensorflow and deep learning to make a real time detector which detects common ASL gestures such as 'hello', 'thank you' etc. The app can be used to (at the moment) translate American Sign Language into English; this will make it much easier for signers to communicate with others; the detector is real-time, giving effective and accurate results. One may also use this application to practice sign language to improve. This app aims to make signers feel more able in their community while teaching the community about this intricate and necessary way of expression. The app has future updates planned, including adding other sign languages, making the app more user friendly, and adding more education tools. 
-
+Here are some user-interface pictures! 
+! (https://github.com/Riddhichau/ASL-Gesture-detection-/blob/main/interface%20pic.png) 
+! (https://github.com/Riddhichau/ASL-Gesture-detection-/blob/main/interface%20pic2.png)
