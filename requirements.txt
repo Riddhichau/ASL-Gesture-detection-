@@ -1,0 +1,13 @@
+Required libraries
+
+tkinter
+Pillow 
+cv2
+numpy 
+os
+matplotlib 
+time
+webbrowser 
+mediapipe 
+tensorflow 
+
