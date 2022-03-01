@@ -1,5 +1,8 @@
 # ASL-Gesture-detection
-Everyone deserves to be understood, but sign language's importance is often overlooked in the society. This application aims to help rectify this by providing an ASL gesture detection system. The application uses mediapipe, tensorflow and deep learning to make a real time detector which detects common ASL gestures such as 'hello', 'thank you' etc. The app can be used to (at the moment) translate American Sign Language into English; this will make it much easier for signers to communicate with others; the detector is real-time, giving effective and accurate results. One may also use this application to practice sign language to improve. This app aims to make signers feel more able in their community while teaching the community about this intricate and necessary way of expression. The app has future updates planned, including adding other sign languages, making the app more user friendly, and adding more education tools. 
+This application aims to help rectify this by providing an ASL gesture detection system. The app can be used to (at the moment) translate American Sign Language into English, making communication easier for signers. The detector is real-time and gives effective and accurate results. One may also use this application to practice sign language to improve and learn sign language gestures. This app makes signers feel more able in their community while teaching the community about this complex and necessary expression. 
+
+The app has future updates planned, including adding other sign languages (and their common gestures!), making the app more user friendly by adding a website and an easier interface and adding more education tools to practice and learn. It was a very informative, fun and challenging internship, and I learned a lot over these three months. I can't wait to see what comes next! 
+
 Here are some user-interface pictures! 
-! (https://github.com/Riddhichau/ASL-Gesture-detection-/blob/main/interface%20pic.png) 
-! (https://github.com/Riddhichau/ASL-Gesture-detection-/blob/main/interface%20pic2.png)
+![interface pic](https://user-images.githubusercontent.com/68298370/156183266-0a5fdfcc-5096-4fa4-9b03-5cb4e17ce729.png)
+![interface pic2](https://user-images.githubusercontent.com/68298370/156183286-2267d345-1475-4256-a107-42b0e505889e.png)
